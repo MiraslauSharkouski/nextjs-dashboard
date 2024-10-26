@@ -30,7 +30,7 @@ const PostTable = ({ limit, title }: PostsTableProps) => {
     <div className="mt-10">
       <h3 className="text-2xl mb-4 font-semibold">{title ? title : "Posts"}</h3>
       <Table>
-        {/* <TableCaption>A list of recent posts</TableCaption> */}
+        <TableCaption>A list of recent posts</TableCaption>
         <TableHeader>
           <TableRow>
             <TableHead>Title</TableHead>
